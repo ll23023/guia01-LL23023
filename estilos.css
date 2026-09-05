@@ -1,4 +1,60 @@
-#tarjeta_brandon{
+body {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    align-content: center;
+    align-items: center;
+}
+
+.ll23023_container {
+    margin: 5px;
+    padding: 20px 20px 15px 20px;
+
+    width: 45%;
+    height: 3.5vh;
+
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 1px rgba(132, 132, 132, 0.1);
+
+    overflow: hidden;
+    transition: height 0.2s linear;
+}
+
+.ll23023_name {
+    margin: 0 auto;
+    padding-bottom: 5px;
+
+    color: #000;
+
+    border-bottom: 2px solid rgba(15, 185, 174, 0);
+
+    transition: all 0.2s linear;
+}
+
+.ll23023_name i {
+    position: block;
+    opacity: 0;
+    color: #0fb9ae;
+
+    transition: opacity 0.2s linear;
+}
+
+.ll23023_container:hover {
+    height: 25vh;
+}
+
+.ll23023_container:hover .ll23023_name {
+    color: #0fb9ae;
+    border-bottom: 2px solid rgba(15, 185, 174, 1);
+}
+
+.ll23023_container:hover .ll23023_name i {
+    opacity: 1;
+}
+
+#tarjeta_brandon {
     text-align: center;
     width: 50vw;
     height: 250px;
@@ -9,7 +65,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
-#Tarjeta_Diego{
+
+#ab23029 {
     text-align: center;
     width: 50vw;
     margin: 20px auto;
